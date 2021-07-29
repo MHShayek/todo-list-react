@@ -4,7 +4,7 @@
 }
 
 .container {
-  background     : linear-gradient(to right bottom, #85C1E9  ,#7FB3D5 );
+  background     : linear-gradient(to right bottom, #85C1E9, #7FB3D5);
   width          : 100%;
   min-height     : 100vh;
   display        : flex;
@@ -13,7 +13,7 @@
 }
 
 .app-wrapper {
-  background-color: rgb(10, 102, 121);
+  background-color: rgb(68, 101, 163);
   min-height      : 550px;
   min-width       : 42 0px;
   padding         : 30px;
@@ -48,8 +48,9 @@
   font-size       : 20px;
   border-radius   : 10px;
   border          : 0px;
-  background-color:  lightcoral ;
+  background-color: rgb(236, 250, 112);
   cursor          : pointer;
+
 }
 
 .list-item {
@@ -74,18 +75,18 @@
 }
 
 .button-complete {
-  color       : rgb(255, 108, 108);
+  color       : rgb(68, 184, 73);
   margin-right: 10px;
 }
 
 .button-edit {
-  color       : rgb(226, 208, 41);
+  color       : rgb(241, 125, 79);
   margin-right: 10px;
 
 }
 
 .button-delete {
-  color: rgb(32, 178, 170);
+  color: rgb(252, 70, 70);
 }
 
 .complete {
@@ -97,9 +98,9 @@
 
 .list {
   width           : 220px;
-  background-color: rgb(18, 52, 59);
+  background-color: rgb(68, 101, 163);
   border          : none;
-  color           : rgb(204, 204, 204);
+  color           : white;
   font-size       : 20px;
   padding-left    : 10px;
   margin-right    : 15px;

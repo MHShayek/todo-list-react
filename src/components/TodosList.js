@@ -17,7 +17,6 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
         setEditTodo(findTodo);
     };
 
-
     const handleDelete = ({ id }) => {
         setTodos(todos.filter((todo) => todo.id !== id))
     };
@@ -29,7 +28,7 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
                     <input
                         type="text"
                         value={todo.title}
-                        className="list"
+                        className={`list ${todo.completed ? "complete" : ""}`}
                         onChange={(event) => event.preventDefault()}
                     />
                     <div>
@@ -43,7 +42,6 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
                             <i className="fa fa-trash"></i>
                         </button>
                     </div>
-
                 </li>
             ))}
         </div>
