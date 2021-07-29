@@ -1,1 +1,1 @@
-This is a simple Todo-List app.
+This is a Todo-List app | CRUD app.
